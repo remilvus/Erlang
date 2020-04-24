@@ -1,0 +1,7 @@
+Map = fun (Fun, List) -> [Fun(X) || X <- List] end.
+Filter = fun (Fun, List) -> [X || X <- List, Fun(X)] end.
+CountDigits = fun(X) -> lists:foldl(fun (_, Acc) -> Acc + 1 end, 0, integer_to_list(X)) end.
+lists:filter(fun(X) -> X rem 3 == 0 end, qsort:randomElems(1000000,1,100)).
+
+Map(fun(X)->2*X end, [1,2,3]).
+Filter(fun(X)->X rem 2 == 0 end, [1,2,3,4]).

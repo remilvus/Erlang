@@ -1,0 +1,37 @@
+% tworzenie monitora i dodanie stacji
+M = pollution:createMonitor().
+M1 = pollution:addStation("kono", {0,0}, M).
+M2 = pollution:addStation("kono", {1,0}, M1). % stacja nie doda się
+M3 = pollution:addStation("dio", {1,0}, M2).
+M4 = pollution:addStation("da", {5,5}, M3).
+
+% dodawanie pomiarów
+M5 = pollution:addValue({5,5}, calendar:local_time(), "pm2", 10, M4).
+M6 = pollution:addValue("kono", calendar:local_time(), "pm2", 10, M5).
+M7 = pollution:addValue("dio", calendar:local_time(), "pm2", 60, M6).
+M8 = pollution:addValue("kono", calendar:local_time(), "pm2", 20, M7).
+M9 = pollution:addValue("kono", calendar:local_time(), "pm10", 40, M8).
+M10 = pollution:addValue("da", calendar:local_time(), "pm10", 20, M9).
+
+% dodanie i usunięcie pomiaru
+Time = calendar:local_time().
+M11 = pollution:addValue({0,0}, Time, "pm2", 20000, M10).
+M12 = pollution:removeValue({0,0}, Time, "pm2", M11).
+
+{Today, _} = calendar:local_time().
+pollution:getOneValue("kono", "pm2", Today, M12). % zwraca jeden pomiar z zadanego dnia
+pollution:getStationMean({0,0}, "pm2", M12). % powinno zwrócić 15
+pollution:getDailyMean("pm2", Today, M12). % powinno zwrócić 25
+
+{_, {Hour, _,_}} = calendar:local_time().
+pollution:getHourlyMean({0,0}, "pm2", Hour, M12). % powinno zwrócić 15
+pollution:getHourlyMean({0,0}, "pm2", Hour+4, M12). % zwraca brak danych
+pollution:getDailyAverageDataCount({0,0}, Monitor). % zwraca 3
+pollution:getDailyAverageDataCount("dio", Monitor). % zwraca 1
+pollution:getMaximumGradientStations(M12). % 50 gradientu między stacjami "kono" i "dio"
+pollution:getDailyOverLimit("pm2", 30, Today, M12). % zwraca 1 (stacja "dio")
+pollution:getDailyOverLimit("pm2", 0, Today, M12). % zwraca 3 (wszystkie stacje przekraczają limit)
+
+% rozszerzenie o dodatkowe funkcje
+pollution:getGlobalMax("pm10", M12). % znajduje maksymalną wartość danego parametru (40)
+pollution:getGlobalMin("pm10", M12). % znajduje minimalną wartość danego parametru (20)

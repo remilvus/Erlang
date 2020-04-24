@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85c485af-ed76-490f-ab52-12613157bfff" name="Default Changelist" comment="" />
+    <list default="true" id="85c485af-ed76-490f-ab52-12613157bfff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Erlang.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erlang/MyLists.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Erlang/MyLists.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erlang/erlan.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Erlang/erlan.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erlang/onp.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Erlang/onp.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Erlang/MyLists.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Erlang/MyLists.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Erlang/erlan.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Erlang/erlan.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Erlang/onp.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Erlang/onp.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onp.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/onp.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parcellockerfinder.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcellockerfinder.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pinpong.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/pinpong.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pollution.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/pollution.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pollution_server.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/pollution_server.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qsort.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/qsort.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_pollution.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_pollution.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_pollution_server.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_pollution_server.erl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,25 +37,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YvogO3tNaC3HlFt4cRv613X3Uy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Erlang Console.Unnamed">
     <configuration name="Unnamed" type="ErlangConsoleRunConfigurationType" factoryName="Erlang Console" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Erlang" />
       <option name="allowRunningInParallel" value="false" />
@@ -48,6 +73,114 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_pollution_server:basic_test_" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Erlang" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <option name="functionNames">
+        <set>
+          <option value="test_pollution_server:basic_test_" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_pollution_server:data_manipulation_test_" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Erlang" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <option name="functionNames">
+        <set>
+          <option value="test_pollution_server:data_manipulation_test_" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_pollution_server:error_station_mean_test" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Erlang" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <option name="functionNames">
+        <set>
+          <option value="test_pollution_server:error_station_mean_test" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_pollution_server:error_test_" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Erlang" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <option name="functionNames">
+        <set>
+          <option value="test_pollution_server:error_test_" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Erlang Eunit.test_pollution_server:basic_test_" />
+        <item itemvalue="Erlang Eunit.test_pollution_server:data_manipulation_test_" />
+        <item itemvalue="Erlang Eunit.test_pollution_server:error_test_" />
+        <item itemvalue="Erlang Eunit.test_pollution_server:error_station_mean_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,29 +204,47 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="667" y="277" width="642" height="560" key="#Unnamed/67.27.1853.1053@67.27.1853.1053" timestamp="1583832659696" />
-    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583847599353">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1678" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586356238110">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state x="1678" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586356238110" />
     <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583847599353" />
-    <state width="1807" height="275" key="GridCell.Tab.0.bottom" timestamp="1583848618975">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="985" height="338" key="GridCell.Tab.0.bottom" timestamp="1586682068899">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state width="985" height="338" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586682068899" />
     <state width="1807" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583848618975" />
-    <state width="1807" height="275" key="GridCell.Tab.0.center" timestamp="1583848618973">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="985" height="338" key="GridCell.Tab.0.center" timestamp="1586682068899">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state width="985" height="338" key="GridCell.Tab.0.center/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586682068899" />
     <state width="1807" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583848618973" />
-    <state width="1807" height="275" key="GridCell.Tab.0.left" timestamp="1583848618973">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="985" height="338" key="GridCell.Tab.0.left" timestamp="1586682068899">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state width="985" height="338" key="GridCell.Tab.0.left/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586682068899" />
     <state width="1807" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583848618973" />
-    <state width="1807" height="275" key="GridCell.Tab.0.right" timestamp="1583848618974">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="985" height="338" key="GridCell.Tab.0.right" timestamp="1586682068899">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state width="985" height="338" key="GridCell.Tab.0.right/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586682068899" />
     <state width="1807" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583848618974" />
-    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583848212469">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1762" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586625967408">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state x="1762" y="188" width="1022" height="737" key="SettingsEditor/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586625967408" />
+    <state x="1883" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1586340907233">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1883" y="363" key="com.intellij.ide.util.TipDialog/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586340907233" />
     <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583848212469" />
+    <state x="159" y="278" width="801" height="677" key="dock-window-1" timestamp="1586678239094">
+      <screen x="0" y="56" width="1280" height="1024" />
+    </state>
+    <state x="159" y="278" width="801" height="677" key="dock-window-1/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586678239094" />
+    <state x="1936" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1586356891195">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1936" y="259" width="672" height="678" key="search.everywhere.popup/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1586356891195" />
   </component>
 </project>
